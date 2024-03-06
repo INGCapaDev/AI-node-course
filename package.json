@@ -15,6 +15,9 @@
     "@langchain/openai": "^0.0.15",
     "dotenv": "^16.4.5",
     "langchain": "^0.1.25",
-    "openai": "^4.28.4"
+    "openai": "^4.28.4",
+    "pdf-parse": "^1.1.1",
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^9.1.0"
   }
 }
