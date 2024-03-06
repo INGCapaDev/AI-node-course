@@ -62,7 +62,7 @@ const query = async () => {
       },
       {
         role: 'user',
-        content: `Answer the following question using the provided content. If you cannot answer the question with the context, don't lie and make up stuff. Just say you don't know how to answer or that you need more information.
+        content: `Answer the following question using the provided content. If you cannot answer the question with the context, don't lie and make up stuff, in that case just say you don't know how to answer or that you need more information.
         Question: ${question}
         
         Context: ${result.map((r) => r.pageContent).join('\n')}`,

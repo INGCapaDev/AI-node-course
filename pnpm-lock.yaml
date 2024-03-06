@@ -11,6 +11,9 @@ dependencies:
   '@langchain/openai':
     specifier: ^0.0.15
     version: 0.0.15
+  advanced-calculator:
+    specifier: ^1.1.1
+    version: 1.1.1
   dotenv:
     specifier: ^16.4.5
     version: 16.4.5
@@ -383,6 +386,10 @@ packages:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+    dev: false
+
+  /advanced-calculator@1.1.1:
+    resolution: {integrity: sha512-ak2G4Q0HkPOMrJQU3kyYyIsFHAOkp1vfsCtYF2gwSb8qAWYAmligJjJFesbsgBTDlgKFAm86b6HbGdggXOzxqA==}
     dev: false
 
   /agentkeepalive@4.5.0:
